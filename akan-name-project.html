@@ -2,11 +2,32 @@
 <html>
  <head>
    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+   <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+
  </head>
  <body>
-   <h1 class="introduction">Ghanaian Traditional Naming Culture</h1>
-  <div class="home">
-   <img src="/home/amuda/Akan-name-project/images/African-Print-Kids-Clothing-Models-Wearing-in-Tanzania.jpg" alt="A photo of African kids">
-  </div>
+   <div class="main">
+     <div class="container">
+      <h1 class="introduction">Ghanaian Traditional Naming Culture</h1>
+       <p>
+        <h2 class="card-title">Please enter your information</h2>
+           <div class="label">
+           <label for="">
+             <h3> Year</h3>
+             <input type="text" name="" placeholder="Enter Year Of Birth" >
+             <h4> month</h4>
+            <input type="text" name="month" placeholder="Enter month of birth" required>
+             <h5> Day</h5>
+             <input type="text" name="day" placeholder="Enter your day of birth" required>
+             </label>
+           </div>
+         </div>
+           <label>Gender</label>
+           <input type="radio" name="gender" id="gender" value="male">male
+           <input type="radio" name="gender" id="gender" value="female">female
+           <input type="submit" name="submit" value="submit" onclick="submition">
+         <div class="card-footer">
+      </div>
+      </div>
  </body>
 </html>
