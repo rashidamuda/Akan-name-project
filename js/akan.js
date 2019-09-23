@@ -17,7 +17,6 @@ else{
     }
 alert("You were born on "+dayOfTheWeek[dayBorn]+ " Your name is.."+akanName);
 }
-
 function getGender(){
 var gender = document.getElementsByName("gender");
 for(i=0; i<gender.length; i++) {
