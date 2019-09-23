@@ -11,21 +11,23 @@
        <p></em>Akan People</em>of  frequently name their children after the day of the week they were born and the order in which they were born.</P>
        <p>This application will be able to provide the day of the week in which you were born and asign your (<strong>Akan names</strong>) according to the day of the week you were born with help from filling the information below.</p>
         <h2 class="card-title">Please enter your information</h2>
+        <form onsubmit="event.preventDefault()">
            <div class="label">
            <label for="">
              <h3> Year</h3>
-             <input type="text" name="" placeholder="Enter Year Of Birth" required>
+             <input type="number" id="year" value="" placeholder="Enter Year Of Birth" required>
              <h4> month</h4>
-            <input type="text" name="month" placeholder="Enter month of birth" required>
+            <input type="number" id="month" value="" placeholder="Enter month of birth" required>
              <h5> Day</h5>
-             <input type="text" name="day" placeholder="Enter your day of birth" required>
+             <input type="number" id="day" value="" placeholder="Enter your day of birth" required>
              </label>
            </div>
          </div>
            <label><strong>gender</strong></label>
-           <input type="radio" name="gender" id="gender" value="male"><strong>male</strong>
-           <input type="radio" name="gender" id="gender" value="female"><strong>female</strong>
-           <input type="submit" name="submit" value="submit" onclick="giveAkanName()">
+            <input type="radio" name="gender" id="gender" value="male"><strong>male</strong>
+            <input type="radio" name="gender" id="gender" value="female"><strong>female</strong>
+            <input type="submit" name="submit" value="submit" onclick="giveAkanName()">
+           </form>
          <div class="card-footer">
       </div>
       </div>
